@@ -224,6 +224,7 @@
   <ItemGroup>
     <Content Include="901265e3-f15c-46de-84bb-1f285ca02ab3_200x200.ico" />
     <Content Include="controller.ico" />
+    <None Include="Resources\bola iniciar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

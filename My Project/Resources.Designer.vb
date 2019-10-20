@@ -113,6 +113,16 @@ Namespace My.Resources
         '''<summary>
         '''  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property bola_iniciar() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("bola iniciar", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property download() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("download", resourceCulture)
@@ -136,6 +146,16 @@ Namespace My.Resources
         Friend ReadOnly Property f3eeaebd_f88a_4580_adc2_4011aa37b587_200x200() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("f3eeaebd-f88a-4580-adc2-4011aa37b587_200x200", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property fundo() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fundo", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

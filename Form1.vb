@@ -67,4 +67,20 @@ Public Class Panel_conteudo
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
         AbrirFormNoPanel(New ratito)
     End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs)
+        PictureBox7.Image = My.Resources.Screenshot_2
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+        PictureBox7.Image = My.Resources.fundo
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        PictureBox7.Image = My.Resources.Screenshot_2
+    End Sub
+
+    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
+        PictureBox7.Image = My.Resources.Screenshot_3
+    End Sub
 End Class
